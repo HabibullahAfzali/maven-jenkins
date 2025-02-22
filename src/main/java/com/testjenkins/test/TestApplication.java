@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class TestApplication {
 
 	public static void printMessage( String text) {
-		String nombre;
+		int nombre;
 		Scanner scanner = new Scanner(System.in);
 		nombre =scanner.next();
 		System.out.println(nombre+" : "+text);
