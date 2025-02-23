@@ -1,27 +1,27 @@
 pipeline {
-    // any agents
     agent any
 
     // Triggers the job to poll the Git SCM every minute and check for changes
     triggers {
         pollSCM('* * * * *')  // Polling every minute for changes in the GitHub repository
-        echo 'polling every minutes after a change commited to code'
     }
 
     stages {
         stage('Checkout') {
             steps {
                 // Checkout the code from GitHub repository
+                echo 'Polling every minute after a change is committed to the repository'
                 checkout scm
-                 echo 'Checking out Jenkins files'
+                echo 'Checking out the repository code'
             }
         }
         
         stage('Build') {
             steps {
                 // Run Maven commands to build the project
+                echo 'Starting the Maven build: clean install'
                 sh 'mvn clean install'
-                echo 'Building the project'
+                echo 'Maven build completed'
             }
         }
     }
