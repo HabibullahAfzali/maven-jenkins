@@ -12,7 +12,9 @@ public class TestApplication {
 		String nombre;
 		Scanner scanner = new Scanner(System.in);
 		nombre =scanner.next();
+		apiedo =scanner.next();
 		System.out.println(nombre+" : "+text);
+		
 	}
 
 	public static void main(String[] args) {
