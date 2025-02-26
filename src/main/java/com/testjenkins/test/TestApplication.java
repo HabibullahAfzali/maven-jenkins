@@ -14,8 +14,8 @@ public class TestApplication {
 		Scanner scanner = new Scanner(System.in);
 		nombre =scanner.next();
 		apiedo =scanner.next();
-		System.out.println(nombre+" : "+ text);
-		System.out.prinln(apiedo + " : " + text);
+		System.out.println(nombre);
+		System.out.prinln(apiedo);
 	}
 
 	public static void main(String[] args) {
@@ -23,6 +23,7 @@ public class TestApplication {
 		SpringApplication.run(TestApplication.class, args);
 		System.out.println("******************************");
 		System.out.println("Su nombre! ");
+		System.out.println("Su apiedo! ");
 
 
 		printMessage("bienvanida al programacion");
