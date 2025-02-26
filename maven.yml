@@ -9,11 +9,14 @@
 name: Java CI with Maven
 
 on:
+  permissions:
+    contents: read
+    security-events: write
+
   push:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
-
 jobs:
   build:
 
