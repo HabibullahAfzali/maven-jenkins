@@ -14,7 +14,7 @@ public class TestApplication {
 		Scanner scanner = new Scanner(System.in);
 		nombre =scanner.next();
 		apiedo =scanner.next();
-		System.out.println(nombre+" : ");
+		System.out.println(nombre+" : "+ text);
 		System.out.prinln(apiedo + " : " + text);
 	}
 
