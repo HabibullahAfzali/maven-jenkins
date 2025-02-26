@@ -10,11 +10,12 @@ public class TestApplication {
 
 	public static void printMessage( String text) {
 		String nombre;
+		String apiedo;
 		Scanner scanner = new Scanner(System.in);
 		nombre =scanner.next();
 		apiedo =scanner.next();
-		System.out.println(nombre+" : "+text);
-		
+		System.out.println(nombre+" : ");
+		System.out.prinln(apiedo + " : " + text)
 	}
 
 	public static void main(String[] args) {
