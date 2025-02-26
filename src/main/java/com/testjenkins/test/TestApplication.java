@@ -15,7 +15,7 @@ public class TestApplication {
 		nombre =scanner.next();
 		apiedo =scanner.next();
 		System.out.println(nombre);
-		System.out.prinln(apiedo);
+		System.out.println(apiedo);
 	}
 
 	public static void main(String[] args) {
